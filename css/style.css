@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.verticalHeader {
+    display: flex;
+    background: red;
+    color: black;
+    height: 80px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 66px;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.verticalHeader img {
+    max-height: 100%; /*this makes sure that the image's height won't exceed the height of the parent container*/
+    width: auto; /*won't stretch the image*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuParent {
+    display: flex;
+    gap: 64px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 70px;
+}
+.menuPort {
+    display: flex;
+    height: 48px;
+    background: black;
+    color: white;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLinks img {
+    text-decoration: none;
+    border-radius: 20px;
+    max-height: 30px;
+    width: auto;
+    padding: 5px;
+    gap: 10px;
+}
+
+.mainBody {
+    height: 1000px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;    
+}
+
