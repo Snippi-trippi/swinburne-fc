@@ -54,7 +54,19 @@ ul {
 }
 
 .mainBody {
-    height: 1000px;
+    display: flex;
+    height: 900px;
+
+}
+
+.teamPic {
+    max-height: 100%;
+    width: auto;
+}
+
+.clubInfo {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .footer {
