@@ -22,7 +22,7 @@ html, body {
     width: auto; /*won't stretch the image*/
 }
 
-ul {
+div .menuParent, .footer-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -55,12 +55,12 @@ ul {
 
 .mainBody {
     display: flex;
-    height: 900px;
+    height: 850px;
 
 }
 
-.teamPic {
-    max-height: 100%;
+.mainBody .teamPic img {
+    max-height: 850px;
     width: auto;
 }
 
